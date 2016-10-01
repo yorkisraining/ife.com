@@ -1,0 +1,140 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background: #dedede;
+	font-family: "arial, helvetica, sans-serif";
+}
+
+nav {
+	height: 60px;
+	width: 100%;
+	background: #333;
+}
+
+nav ul {
+	float: right;
+	margin-right: 20px;
+}
+
+nav ul li {
+	float: left;
+	margin-left: 30px;
+}
+
+nav ul li a {
+	line-height: 60px;
+	color: #fff;
+	text-decoration: none;
+	font-size: 12px;
+}
+
+.logo {
+	position: absolute;
+	left: 50px;
+	top: 5px;
+	height: 60px;
+}
+
+section, aside {
+	width: 1240px;
+	margin: 20px auto 0;
+	background: #fff;
+	padding: 30px;
+	border: 1px solid #989898;
+	box-shadow: 3px 2px 3px #9f9f9f;
+}
+
+h1 {
+	font-size: 26px;
+	margin-bottom: 10px;
+}
+
+h2 {
+	color: #7E7771;
+	font-size: 18px;
+	padding: 10px 0;
+}
+
+address, time {
+	display: block;
+	font-style: normal;
+	color: #7E7771;
+	font-size: 14px;
+	padding: 5px 0;
+}
+
+p {
+	margin-top: 15px;
+	line-height: 1.5em;
+	font-family: "微软雅黑";
+}
+
+.alist {
+	margin-top: 10px;
+}
+
+.alist li {
+	list-style-type: none;
+	text-indent: 20px;
+}
+
+.picture {
+	width: 650px;
+	height: 340px;
+	border: 1px solid #9F9F9F;
+	text-align: center;
+	line-height: 340px;
+	margin-bottom: 20px;
+}
+
+ol {
+	margin: 15px 0 15px 40px;
+	font-weight: 600;
+}
+
+ol li {
+	padding: 5px 0;
+}
+
+table {
+	border-collapse: collapse;
+}
+
+thead{
+	background: #333;
+	color: #fff;
+}
+
+tfoot {
+	background: #eee;
+	text-align: center;
+}
+
+td, th {
+	padding: 5px 20px;
+}
+
+td a {
+	text-decoration: none;
+}
+
+aside h1 {
+	border-left: 3px solid #ccc;
+	padding: 5px;
+}
+
+.btn {
+	width: 350px;
+	height: 35px;
+	background: #3355D0;
+	color: #fff;
+	font-size: 14px;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+	letter-spacing: 5px;
+	text-align: center;
+}
